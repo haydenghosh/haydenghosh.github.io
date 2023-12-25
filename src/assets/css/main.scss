@@ -1,0 +1,14 @@
+---
+# Jekyll needs front matter for SCSS files
+---
+
+//$sidebar-bg-color: #0d1117;
+//$background-attachment: fixed;
+//$background-color: #0d1117;
+//$background-image: linear-gradient(to bottom, #0d1117, #0d1117);
+//$color: rgba(255, 255, 255, 0.75);
+//$display: flex;
+//$flex-direction: column;
+//$min-height: 100vh;
+@import "hydeout";
+body { background-attachment: fixed; background-color: #0d1117; background-image: linear-gradient(to bottom, #0d1117, #0d1117); color: rgba(255, 255, 255, 0.75); display: flex; flex-direction: column; min-height: 100vh; }
