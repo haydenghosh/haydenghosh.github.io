@@ -31,7 +31,7 @@ github_username:  jekyll
 
 # Build settings
 #theme: minima
-remote_theme: fongandrew/hydeout
+remote_theme: Hydeout
 plugins:
   - jekyll-feed
 
