@@ -7,13 +7,13 @@
 
 # Site settings
 title: "Your Awesome Title"
-email: your_email@gmail.com 
+email: esampat@ucsb.edu
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. "/blog" or "" for without any subpath
-url: "http://ttuieh.github.io" # the base hostname & protocol for your site
+url: "http://sar-mango.github.io" # the base hostname & protocol for your site
 
 # Navigation section
 # You need to define navigation items in "_data/nav.yml" and then enable using the following variable.
@@ -38,11 +38,11 @@ max-home-items: 5
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/social_networks.yml
 social_accounts:
   # rss: true
-  email: "ttuieh@gmail.com"
-  github: ttueih
+  email: "esampat@ucsb.edu"
+  github: SAR-mango
   # twitter: ttueih
   # reddit: ttueih
-  linkedin: ttueih
+  linkedin: erk-sampat-500331245
   # xing: ttueih
   # stackoverflow: "11523888/ttueih"
   # researchgate: "ttueih"
