@@ -6,23 +6,18 @@ home:
   text: "Home"
   link: "/"
 
-pages:
-  text: "Pages"
-  link: "/pages"
+projects:
+  text: "Projects"
+  link: "/projects"
+
+notes:
+  text: "Notes"
+  link: "/notes"
 
 posts:
   text: "Posts"
   link: "/posts"
 
-projects:
-  text: "Projects"
-  link: "/projects"
-
-about:
-  text: "About"
-  link: "/about"
-
-feed:
-  text: "RSS"
-  link: "/feed.xml"
-
+pages:
+  text: "Pages"
+  link: "/pages"

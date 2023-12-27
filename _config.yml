@@ -17,17 +17,13 @@ url: "http://ttuieh.github.io" # the base hostname & protocol for your site
 
 # Navigation section
 # You need to define navigation items in "_data/nav.yml" and then enable using the following variable.
-navigations: [home,pages,posts,projects,about ,feed]
+navigations: [home,projects,notes,posts,pages]
 
 # The font-family set here will have a global effect on the site.
 # For each of google fonts like Lora, Inconsolata, Source Sans Pro or Source Code Pro,
 # a corresponding script is added to site header to make sure the font is available at client side.
 font-family: ['Lora', serif]
-# font-family: ["Inconsolata", monospace]
 # font-family: ['Source Sans Pro', sans-serif]
-# font-family: ['Source Code Pro', monospace]
-# font-family: ["Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace]
-# font-family: ["Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace]
 
 # This configuration is for font-family of about page.
 cv-font-family: ["Inconsolata", monospace]
@@ -44,12 +40,12 @@ social_accounts:
   # rss: true
   email: "ttuieh@gmail.com"
   github: ttueih
-  twitter: ttueih
+  # twitter: ttueih
   # reddit: ttueih
-  # linkedin: ttueih
+  linkedin: ttueih
   # xing: ttueih
-  stackoverflow: "11523888/ttueih"
-  researchgate: "ttueih"
+  # stackoverflow: "11523888/ttueih"
+  # researchgate: "ttueih"
   # snapchat: ttueih
   # instagram: ttueih
   # youtube: user/ttueih
