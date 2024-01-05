@@ -13,15 +13,6 @@
     <h2 class="post_title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title}}</a></h2>
     <time class="post_date">{{ post.date | date: "%B %-d, %Y" }}</time>
     </header>
-    <div class="post_excerpt">
-    <p>
-        {% if post.description %}
-        {{ post.description}}
-        {% else %}
-        {{ post.excerpt }}
-        {% endif %}
-    </p>
-    </div>
     <footer class="post_meta">
     </footer>
     <hr class="post-card-hr" />
