@@ -79,6 +79,12 @@ This is a list of Vim commands I use often. A fair portion of the list is taken 
 | `:%s/^/foo/`      	    | Insert "foo" to the beginning of every line                                              	|
 | `x`               	    | Delete character                                                                         	|
 | `ZZ`              	    | Save and exit                                                                            	|
+| `i`      	                | Insert before the cursor                                  	                            |
+| `I`      	                | Insert at the beginning of the line                       	                            |
+| `a`      	                | Append after the cursor                                   	                            |
+| `A`      	                | Append at the end of the line                             	                            |
+| `o`      	                | Open a new line below the current line                    	                            |
+| `O`      	                | Open a new line above the current line                    	                            |
 
 ## Yank (Copy) and Paste
 
@@ -108,17 +114,13 @@ This is a list of Vim commands I use often. A fair portion of the list is taken 
 
 ## Insert Mode
 
-| Command  	| Purpose                                                   	|
-|----------	|-----------------------------------------------------------	|
-| `i`      	| Insert before the cursor                                  	|
-| `I`      	| Insert at the beginning of the line                       	|
-| `a`      	| Append after the cursor                                   	|
-| `A`      	| Append at the end of the line                             	|
-| `o`      	| Open a new line below the current line                    	|
-| `O`      	| Open a new line above the current line                    	|
-| CTRL + H 	| Delete the character before the cursor (in insert mode)   	|
-| CTRL + W 	| Delete the current word up to the cursor (in insert mode) 	|
-| CTRL + J 	| Add a line break at the cursor position (in insert mode)  	|
-| CTRL + T 	| Indent the current line (in insert mode)                  	|
-| CTRL + D 	| De-indent the current line (in insert mode)               	|
+These shortcuts work when you are in insert mode.
+
+| Command  	| Purpose                                   |
+|----------	|------------------------------------------	|
+| CTRL + H 	| Delete the character before the cursor    |
+| CTRL + W 	| Delete the current word up to the cursor  |
+| CTRL + J 	| Add a line break at the cursor position   |
+| CTRL + T 	| Indent the current line                   |
+| CTRL + D 	| De-indent the current line                |
 
