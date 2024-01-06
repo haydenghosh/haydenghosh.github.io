@@ -1,8 +1,10 @@
 ---
 layout: post
 title: Useful Vim Commands
-date: 2024-01-04
+date: 2024-01-06
 ---
+
+This is a list of Vim commands I use often. A fair portion of the list is taken from [this website](https://vim.rtorr.com), but I removed the commands I don't find useful. I also updated many of the descriptions and added some of my own commands.
 
 ## Cursor Movement
 
