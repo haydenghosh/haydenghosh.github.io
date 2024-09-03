@@ -103,7 +103,8 @@ defaults:
 # Build settings
 markdown: kramdown
 kramdown:
-  math_engine: mathjax
+  #math_engine: mathjax
+  math_engine: katex
   input: GFM
 
 # Enable the use of mathjax for this website.
