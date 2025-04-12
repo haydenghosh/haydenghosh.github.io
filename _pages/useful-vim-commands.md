@@ -3,6 +3,7 @@ layout: post
 title: Useful Vim Commands
 date: 2024-01-06
 ---
+Updated April 9, 2025
 
 This is a list of Vim commands I use often. A fair portion of the list is taken from [this website](https://vim.rtorr.com), but I removed the commands I don't find useful. I also updated many of the descriptions and added some of my own commands.
 
@@ -22,6 +23,7 @@ This is a list of Vim commands I use often. A fair portion of the list is taken 
 | `B`                   	| Jump backward to the start of the previous word (punctuation counts as part of the word) 	|
 | `E`                   	| Jump forward to the end of the current word (punctuation counts as part of the word)     	|
 | `0`                   	| Jump to the beginning of the line                                                        	|
+| `_`                   	| Jump to the first non-whitespace character in the line                                    |
 | `-`                   	| Jump to the beginning of the above line                                                  	|
 | `$`                   	| Jump to the end of the line                                                              	|
 | `^`                   	| Jump to the first non-whitespace character on the line                                   	|
@@ -114,7 +116,7 @@ This is a list of Vim commands I use often. A fair portion of the list is taken 
 
 ## Insert Mode
 
-These shortcuts work when you are in insert mode.
+These shortcuts work when Vim is in insert mode.
 
 | Command  	| Purpose                                   |
 |----------	|------------------------------------------	|
