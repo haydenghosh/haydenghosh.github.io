@@ -4,14 +4,16 @@ title: About Me
 ---
 
 ## Welcome
-Hi! I'm Erk – an electrical engineering student at UC Santa Barbara. I made this website because I wanted a place to store my work and share it with others.
+Hi! I'm Erk – a third-year electrical engineering student at UC Santa Barbara.
 
-For now, I'm making occasional blog posts and guides/reference pages. Later I plan to create a set of notes for various classes I have taken. I also hope to document some of my future projects.
+For now I'm making occasional blog posts and reference pages. Later I plan to create a set of notes for various classes I have taken. I will also document some of my future projects.
 
 ## About me
-Electrical engineering has been a lifelong passion of mine. I've done several projects involving a mix of power electronics and embedded systems, typically applied to RC drones and planes (see [SinESC](https://github.com/SAR-mango/SinESC)). However, I don't restrict interest to one specific part of a system. I am familiar with all levels of the stack.
+Electrical engineering has been a lifelong passion of mine. I've done several projects involving a mix of power electronics and embedded systems, typically applied to RC drones and planes (see [SinESC](https://github.com/SAR-mango/SinESC)).
 
-I'm mostly into hardware, but I enjoy writing low-level software (C++) with a direct hardware application. Occasionally I enjoy a pure software project as well – see [eApprox](https://github.com/SAR-mango/eApprox).
+I'm mostly into hardware, but I also enjoy programming for a direct hardware application. I'm a fan of C/C++; occasionally I create things like [eApprox](https://github.com/SAR-mango/eApprox). I'm also obsessed with writing stuff in [LaTeX](https://github.com/SAR-mango/latex-templates).
+
+I'm from San Diego and have lived in California all my life.
 
 ## Research interests
-My broad research interest is analog circuits. More specifically, mixed-signal and power electronics. Perhaps also RF. I hope to narrow this down by late 2025.
+I'm interested in signal-processing applications of mixed-signal circuits, and perhaps also RF. I hope to narrow this down by late 2025.
