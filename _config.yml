@@ -108,7 +108,7 @@ kramdown:
   input: GFM
 
 # Enable the use of mathjax for this website.
-mathjax: true
+mathjax: false
 
 # used this for post_excerpt at index_page
 # add excerpt_separator to tell jekyll to which point the content will be shown in collection page.
@@ -116,3 +116,4 @@ excerpt_separator: <!--description-->
 
 # set timezone
 timezone: america/los_angeles
+
