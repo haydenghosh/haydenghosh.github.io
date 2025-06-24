@@ -8,10 +8,7 @@
 # Site settings
 title: "Erk Sampat"
 email: esampat@ucsb.edu
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: Erk Sampat's website.
 baseurl: "" # the subpath of your site, e.g. "/blog" or "" for without any subpath
 url: "http://sar-mango.github.io" # the base hostname & protocol for your site
 
@@ -23,63 +20,32 @@ navigations: [home,projects,notes,posts,pages]
 # For each of google fonts like Lora, Inconsolata, Source Sans Pro or Source Code Pro,
 # a corresponding script is added to site header to make sure the font is available at client side.
 font-family: ['Lora', serif]
-# font-family: ['Source Sans Pro', sans-serif]
-
-# This configuration is for font-family of about page.
-cv-font-family: ["Inconsolata", monospace]
-
-# This is to limit the number of posts which should be showed in our home page.
-max-home-items: 5
-
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
 # You can reorder the items to define the link order.
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/social_networks.yml
 social_accounts:
-  # rss: true
   email: "esampat@ucsb.edu"
   github: SAR-mango
-  # twitter: ttueih
-  # reddit: ttueih
   linkedin: erk-sampat-500331245
-  # xing: ttueih
-  # stackoverflow: "11523888/ttueih"
-  # researchgate: "ttueih"
-  # snapchat: ttueih
-  # instagram: ttueih
-  # youtube: user/ttueih
-  # spotify: ttueih
-  # telephone: +1111111111111
-  # steam: ttueih
-  # twitch: ttueih
-  # yelp: ttueih
-
 
 # Enable collections
 # you can add more collection or remove collection by configuring the below variables.
 # It is important that you keep 'tags' collection in order to let tag system work.
 collections:
-  tags:
-    output: true
-    permalink: /:collection/:name
-    # For tags collection: each new tag will need a file with the same name in `_tags' folder. Just follow the format of the other tag files, such as `_tags/markdown.rm`.
   pages:
-    # all post inside _pages folder will be long to this collection.
     output: true
     permalink: /:collection/:name
   projects:
-    # all post inside _projects folder will be long to this collection.
+    output: true
+    permalink: /:collection/:name
+  notes:
     output: true
     permalink: /:collection/:name
 
 # Here we can define default layout for each of collections.
 defaults:
-  - scope:
-      path: ""
-      type: "tags"
-    values:
-      layout: "tag"
   - scope:
       path: ""
       type: "projects"
@@ -97,18 +63,19 @@ defaults:
       layout: "post"
   - scope:
       path: ""
+      type: "notes"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
     values:
       layout: "default"
 
 # Build settings
 markdown: kramdown
 kramdown:
-  #math_engine: mathjax
   math_engine: katex
   input: GFM
-
-# Enable the use of mathjax for this website.
-mathjax: false
 
 # used this for post_excerpt at index_page
 # add excerpt_separator to tell jekyll to which point the content will be shown in collection page.
