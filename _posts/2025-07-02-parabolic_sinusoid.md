@@ -205,7 +205,7 @@ The story changes if we consider the human ear, which is *quite* sensitive. Belo
 We calculated earlier that the signal-to-noise ratio of the parabolic approximation is around 28.4 dB. While this may be decent in an electrical system, it is quite unimpressive to the ear. Most music is recorded using gear that provides an SNR of at least 70 dB. Thus, if you listen to the clips in a quiet room (or with noise-canceling earphones), it should be fairly easy to tell them apart. If you listen in a noisy environment, it becomes nearly impossible to hear the difference.
 
 ## Concluding Thoughts
-I always love tangible connections between mathematics and the physical world. I take comfort in the occasional reminder that the math really does work – that these integrals and sums and Fourier series really do mean something.
+I always love tangible connections between mathematics and the physical world. I take comfort in the occasional reminder that the math *works* – that these integrals and sums and Fourier series really do mean something.
 
 I also appreciate the power of mathematics as a means of satisfying my curiosity. What began as a simple graphical observation could be narrowed down to a specific problem with an exact, yet fairly intuitive solution. This would be unattainable without math.
 
