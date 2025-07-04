@@ -1,0 +1,37 @@
+\input{setup}
+\input{commands}
+\class{Class}
+\title{Topic}
+\author{Erk Sampat}
+\begin{document}
+	We consider the parabolic approximation of a sinusoid of amplitude 1 and frequency $f_{0}$:
+	$$x(t)\approx\sin(2\pi f_{0}t)$$
+	$$x(t)\xleftrightarrow{\text{F.S.}}a^{s}_{k}$$
+	$$a^{s}_{k}=-\frac{16j}{\pi^{3}k^{3}}$$
+	Delay property:
+	$$x(t+d)\xleftrightarrow{\text{F.S.}}a^{s}_{k}e^{jk2\pi f_{0}d}$$
+	$$x(t+T_{0}/4)\approx\cos(2\pi f_{0}t)$$
+	$$x(t+T_{0}/4)\xleftrightarrow{\text{F.S.}}a^{c}_{k}$$
+	\begin{align*}
+		a^{c}_{k} &= -\frac{16j}{\pi^{3}k^{3}}e^{jk2\pi f_{0}T_{0}/4} \\
+		&= -\frac{16j}{\pi^{3}k^{3}}e^{jk\pi/2}
+	\end{align*}
+	$$e^{j2\pi f_{0}t}=\cos(2\pi f_{0}t)+j\sin(2\pi f_{0}t)$$
+	$$\text{Parabolic approximation of }e^{j2\pi f_{0}t}\xleftrightarrow{\text{F.S.}}a_{k}$$
+	\begin{align*}
+		a_{k} &= a^{c}_{k}+ja^{s}_{k} \\
+		&= -\frac{16j}{\pi^{3}k^{3}}e^{jk\pi/2}-\frac{16j^{2}}{\pi^{3}k^{3}} \\
+		&= \frac{16}{\pi^{3}k^{3}}(-je^{jk\pi/2}+1)
+	\end{align*}
+	We now consider a sinusoid of amplitude 1 and frequency $f_{0}$, sampled at rate $f_{s}$ for a duration of $\ell$ seconds. This gives a total number of samples $N=f_{s}\ell$. We can write the sampled signal as
+	$$x[n]=\sin(2\pi f_{0}n/N)$$
+	For discrete-time, length-$N$ signals, we define the inner product as
+	$$\langle x_{1},x_{2}\rangle=\sum_{k=0}^{N-1}x_{1}[k]x_{2}^{*}[k]$$
+	Let us compute the inner product of the sinusoids
+	$$x_{1}[n]=\sin(2\pi f_{1}n/N),\; x_{2}[n]=\sin(2\pi f_{2}n/N)$$
+	We have
+	\begin{align*}
+		\langle x_{1},x_{2}\rangle &= \sum_{k=0}^{N-1}x_{1}[k]x_{2}^{*}[k] \\
+		&= \sum_{k=0}^{N-1}x_{1}[k]x_{2}^{*}[k] \\
+	\end{align*}
+\end{document}
