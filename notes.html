@@ -6,7 +6,7 @@ title: Notes
   <div class="post-list">
     <h1 class="post-list-title"> Notes </h1>
 
-    {% assign sorted = site.projects | sort: 'date' | reverse %}
+    {% assign sorted = site.notes | sort: 'date' | reverse %}
     {% include post_list.html posts=sorted %}
   </div>
 </div>
