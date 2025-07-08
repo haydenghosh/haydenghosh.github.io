@@ -14,7 +14,7 @@ url: "http://sar-mango.github.io" # the base hostname & protocol for your site
 
 # Navigation section
 # You need to define navigation items in "_data/nav.yml" and then enable using the following variable.
-navigations: [home,projects,notes,posts,pages]
+navigations: [home,posts,pages,notes,projects]
 
 # The font-family set here will have a global effect on the site.
 # For each of google fonts like Lora, Inconsolata, Source Sans Pro or Source Code Pro,
@@ -83,4 +83,6 @@ excerpt_separator: <!--description-->
 
 # set timezone
 timezone: america/los_angeles
+
+include: ['_pages']
 
