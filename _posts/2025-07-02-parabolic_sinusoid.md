@@ -26,7 +26,7 @@ It turns out that identifying frequency components like this is an excellent way
 
 ## Solution
 Now that we have narrowed down the problem and found the path to a solution, it is time for the math. Broadly speaking, we will do the following:
-1. Find an equation $x(t)$ for a parabolic approximation of a sine wave.
+1. Find an equation for $x(t)$, the parabolic approximation of a sine wave.
 2. Determine the Fourier series coefficients of $x(t)$.
 3. Compute the overall power of $x(t)$.
 4. Compute the power of the fundamental frequency components of $x(t)$.
@@ -34,7 +34,7 @@ Now that we have narrowed down the problem and found the path to a solution, it 
 6. Interpret the results.
 
 #### Parabolic Approximation
-Our first step is to find an equation $x(t)$ that represents the parabolic approximation of a reference sinusoid $r(t) = A\sin(2\pi f_{0}t)$. We take $A=1$. For now, let us consider only the first half-period of $x(t)$, which we denote as a parabolic half-pulse $p(t)$. This half-pulse must satisfy the following properties:
+Our first step is to find an equation for $x(t)$, which represents the parabolic approximation of a reference sinusoid $r(t) = A\sin(2\pi f_{0}t)$. We take $A=1$. For now, let us consider only the first half-period of $x(t)$, which we denote as a parabolic half-pulse $p(t)$. This half-pulse must satisfy the following properties:
 - $p(t) = 0$ outside the interval $[0,T_{0}/2]$.
 - $p(t)$ is parabolic with roots at $t=0$ and $t=T_{0}/2$.
 - The vertex of $p(t)$ is located at $(T_{0}/4,1)$.
