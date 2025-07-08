@@ -84,5 +84,3 @@ excerpt_separator: <!--description-->
 # set timezone
 timezone: america/los_angeles
 
-include: ['_pages']
-
