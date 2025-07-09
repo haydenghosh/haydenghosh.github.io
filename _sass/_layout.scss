@@ -62,9 +62,7 @@ body {
     display: -moz-flex; /* Firefox 18+ */
     display: -ms-flexbox; /* IE 10 */
     display: flex; /* Chrome 29+, Firefox 22+, IE 11+, Opera 12.1/17/18, Android 4.4+ */// Import partials from `sass_dir` (defaults to `_sass`)
-
-    opacity: 0;
-    height: 0;
+    display:none;
 
     -webkit-justify-content: center;
     justify-content:center;
@@ -77,12 +75,13 @@ body {
   
   #menu-toggle:checked+.site-nav {
     opacity: 1;
+    display:block;
     height: auto;
     margin-bottom:-25px;
   }
 }
 
-//  added by chatgpt    //
+//  added from chatgpt  //
 .site-nav li,
 .nav li {
   list-style: none;          // no bullets
