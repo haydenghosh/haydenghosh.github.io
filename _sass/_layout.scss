@@ -87,6 +87,13 @@ body {
   list-style: none;          // no bullets
 }
 
+/* --- Fix mobile-nav left offset --- */
+ul.page-link,                // the generated nav list
+.site-nav ul {               // just in case you add other lists later
+  padding-inline-start: 0;   // or `padding-left: 0;` for older syntax
+  margin: 0;                 // keeps vertical rhythm tight
+}
+
 .site-nav li::marker,
 .nav li::marker {            // Safari / iOS fallback
   content: '';
