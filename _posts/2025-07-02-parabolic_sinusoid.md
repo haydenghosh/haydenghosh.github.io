@@ -116,13 +116,13 @@ On the other hand, since our approximation $x(t)$ is not a perfect sinusoid, it 
 
 In general, we define the power $P$ of some signal $x(t)$, periodic with period $T$, as
 
-$$P=\frac{1}{T}\int_{T}|x(t)|^{2}dt\text{ (power of a periodic signal)}$$
+$$P=\frac{1}{T}\int_{T}|x(t)|^{2}dt\qquad\text{(power of a periodic signal)}$$
 
 where $T$ is any period of $x(t)$.
 
 Remarkably, we can perform an equivalent computation using the Fourier series coefficients $a_{k}$ of $x(t)$:
 
-$$P=\sum_{k=-\infty}^{\infty}|a_{k}|^{2}\text{ (power of a periodic signal)}$$
+$$P=\sum_{k=-\infty}^{\infty}|a_{k}|^{2}\qquad\text{(power of a periodic signal)}$$
 
 This equivalence is known as Parseval's identity.
 
