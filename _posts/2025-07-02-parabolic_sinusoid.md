@@ -49,7 +49,7 @@ $$I_{[\alpha,\beta]}(t) = \begin{cases}1, & \alpha\leq t < \beta \\ 0, & \text{e
 
 Plugging the vertex point into $p(t)$ and solving for $a$ gives $a = -16/T_{0}^{2}$. We thus have
 
-$$p(t) = -\frac{16}{T_{0}^{2}}t(t-T_{0}/2)I_{[0,T_{0}/2]}(t)\qquad\text{(parabolic half-pulse)}$$
+$$p(t) = -\frac{16}{T_{0}^{2}}t(t-T_{0}/2)I_{[0,T_{0}/2]}(t)\quad\text{(parabolic half-pulse)}$$
 
 All we need to do now is write $x(t)$ as a sum of flipped and shifted versions of $p(t)$. The second half-period of $x(t)$ would be $p(t)$ flipped and shifted to the right by $T_{0}/2$, so the entire first period of $x(t)$ is given by $p(t) - p(t-T_{0}/2)$. The pattern then repeats: the $n$th period of $x(t)$ is given by shifting the whole thing by $nT_{0}$. We can write this compactly using summation notation:
 <div style="padding: 0.5em; border: 1px solid purple;color:purple;" markdown="1">
@@ -116,13 +116,13 @@ On the other hand, since our approximation $x(t)$ is not a perfect sinusoid, it 
 
 In general, we define the power $P$ of some signal $x(t)$, periodic with period $T$, as
 
-$$P=\frac{1}{T}\int_{T}|x(t)|^{2}dt\qquad\text{(power of a periodic signal)}$$
+$$P=\frac{1}{T}\int_{T}|x(t)|^{2}dt\quad\text{(power of a periodic signal)}$$
 
 where $T$ is any period of $x(t)$.
 
 Remarkably, we can perform an equivalent computation using the Fourier series coefficients $a_{k}$ of $x(t)$:
 
-$$P=\sum_{k=-\infty}^{\infty}|a_{k}|^{2}\qquad\text{(power of a periodic signal)}$$
+$$P=\sum_{k=-\infty}^{\infty}|a_{k}|^{2}\quad\text{(power of a periodic signal)}$$
 
 This equivalence is known as Parseval's identity.
 
