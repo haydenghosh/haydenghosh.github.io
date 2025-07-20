@@ -4,7 +4,7 @@ title: About Me
 ---
 
 ## Welcome
-Hi! I'm Erk – a third-year electrical engineering student at UC Santa Barbara.
+Hi! I'm Erk – an electrical engineering student in my final year at UC Santa Barbara.
 
 For now I'm making occasional blog posts and reference pages. Later I plan to create a set of notes for various classes I have taken. I will also document some of my future projects.
 
