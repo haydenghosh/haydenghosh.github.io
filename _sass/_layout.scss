@@ -70,8 +70,8 @@ body {
     @include media-query($on-laptop) {
       border-top:1px solid #ddd;
       border-bottom:1px solid #ddd;
-      padding-top:0.5em;
-      padding-bottom:0.5em;
+      padding-top:0.25em;
+      padding-bottom:0.25em;
     }
   }
   
@@ -79,7 +79,6 @@ body {
     opacity: 1;
     display:block;
     height: auto;
-    margin-bottom:-25px;
   }
 }
 
