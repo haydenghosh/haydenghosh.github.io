@@ -90,14 +90,14 @@ $$
 \end{aligned}
 $$
 
-These are tough integrals, but ChatGPT evaluates and simplifies them elegantly. We state the result below:
+These integrals are easily evaluated using the differentiation property of Fourier series, but we omit the work and state the final result below:
 <div style="padding: 0.5em; border: 1px solid purple;color:purple;" markdown="1">
 **Fourier Series of Parabolic Approximation of a Sinusoid**
 
 Consider $x(t)$, the parabolic approximation of a sinusoid as defined in the previous section. The Fourier series coefficients
 of $x(t)$ are given by
 
-$$a_{k} = \begin{cases}-A\dfrac{16j}{\pi^{3}k^{3}}, & k\text{ odd}\\ 0, & k\text{ even or } k=0\end{cases}$$
+$$a_{k} = \begin{cases}-A\dfrac{16j}{\pi^{3}k^{3}}, & k\text{ odd} \\ 0, & k\text{ even or } k=0\end{cases}$$
 
 </div>
 
@@ -146,7 +146,7 @@ $$
 \end{aligned}
 $$
 
-We let ChatGPT do the rest, arriving at
+This evaluates to
 
 $$P_{\text{tot}} = \frac{8A^{2}}{15}$$
 
