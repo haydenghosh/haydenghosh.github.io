@@ -5,7 +5,7 @@ title: Parabolic Approximation of a Sinusoid
 ## The Problem
 Deviating from my usual style, I don't have much of a flowery introduction to give. I thought of this problem a long time ago, and I solved it back in May. I found the result interesting enough to be worth sharing here. Writing it up took forever.
 
-**Sinusoids look awfully similar to a series of truncated parabolas of alternating vertical orientation. Can we quantify *how* similar?**
+Sinusoids look awfully similar to a series of truncated parabolas of alternating vertical orientation. Can we quantify *how* similar?
 <figure>
     <img src="../../../assets/sinusoid_vs_parabola.svg"
          alt="">
