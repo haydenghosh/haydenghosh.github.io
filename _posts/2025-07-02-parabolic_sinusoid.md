@@ -8,7 +8,7 @@ The first time I ever learned about sinusoids was in 8th grade, just after we st
     <img src="../../../assets/sinusoid_vs_parabola.svg"
          alt="">
 </figure>
-All these years later, this idea somehow came up again in conversation with a friend. Having taken a class on continuous-time signals and systems, I realized that we can use Fourier series to exactly quantify the accuracy of the parabolic approximation of a sinusoid. But first, we must understand what "accurate" and "similar" truly mean.
+All these years later, this idea somehow came up again in conversation with a friend. Having taken a class on continuous-time signals and systems, I realized that we can exactly quantify the accuracy of the parabolic approximation of a sinusoid. But first, we must understand what "accurate" and "similar" truly mean.
 
 ## Fourier Series
 A sinusoid consists of a single, pure tone called the fundamental frequency. Meanwhile, any arbitrary periodic signal can be written as a sum of sinusoids of various frequencies – this is known as a Fourier series. So if we find the Fourier-series representation of the parabolic approximation of a sinusoid, then we can identify all the different sinusoids that the approximation contains. One of them will be the original sinusoid that we intend to approximate.
