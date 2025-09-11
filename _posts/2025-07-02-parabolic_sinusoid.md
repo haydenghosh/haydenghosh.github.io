@@ -3,17 +3,15 @@ layout: post
 title: Parabolic Approximation of a Sinusoid
 ---
 ## The Problem
-Deviating from my usual style, I don't have much of a flowery introduction to give. I thought of this problem a long time ago, and I solved it back in May. I found the result interesting enough to be worth sharing here. Writing it up took forever.
-
-Sinusoids look awfully similar to a series of truncated parabolas of alternating vertical orientation. Can we quantify *how* similar?
+The first time I ever learned about sinusoids was in 8th grade, just after we studied quadratic equations. I distinctly remember noticing that a sinusoid looks quite similar to a series of truncated parabolas of alternating vertical orientation, and I wondered how similar they really are. The thought was evanescent at the time, though.
 <figure>
     <img src="../../../assets/sinusoid_vs_parabola.svg"
          alt="">
 </figure>
-Indeed we can, but first we must define what "similar" really means.
+All these years later, this idea somehow came up again in conversation with a friend. Having taken a class on continuous-time signals and systems, I realized that we can use Fourier series to exactly quantify the accuracy of the parabolic approximation of a sinusoid. But first, we must understand what "accurate" and "similar" truly mean.
 
 ## Fourier Series
-A sinusoid consists purely of a single tone, called the fundamental frequency. Meanwhile, any arbitrary periodic signal can be written as a sum of sinusoids of various frequencies – this is known as a Fourier series. So if we find the Fourier-series representation of the parabolic approximation of a sinusoid, then we can identify all the different sinusoids that the approximation contains. One of them will be the original sinusoid that we intend to approximate.
+A sinusoid consists of a single, pure tone called the fundamental frequency. Meanwhile, any arbitrary periodic signal can be written as a sum of sinusoids of various frequencies – this is known as a Fourier series. So if we find the Fourier-series representation of the parabolic approximation of a sinusoid, then we can identify all the different sinusoids that the approximation contains. One of them will be the original sinusoid that we intend to approximate.
 
 With this information, we can determine how much the original sinusoid contributes to the Fourier series of the approximation. If the Fourier series is mostly composed of the original sinusoid, then the approximation will closely resemble the original. Otherwise, the approximation contains lots of sinusoids of different frequencies, and will look quite different. Thus, "similar" really means "contains similar frequency components".
 
@@ -25,7 +23,7 @@ Below is an (illustrative, not to scale) example of the Fourier series of a tria
 It turns out that identifying frequency components like this is an excellent way to analyze the behavior of signals in general, especially when we pass them through linear systems. This is why the Fourier transform – a generalized version of Fourier series – is used extensively in the analysis and design of circuits and control systems.
 
 ## Solution
-Now that we have narrowed down the problem and found the path to a solution, it is time for the math. Broadly speaking, we will do the following:
+Now that we have narrowed down the problem and found the path to a solution, we can proceed with the math. Broadly speaking, we will do the following:
 1. Find an equation for $x(t)$, the parabolic approximation of a sine wave.
 2. Determine the Fourier series coefficients of $x(t)$.
 3. Compute the overall power of $x(t)$.
