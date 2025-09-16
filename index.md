@@ -3,8 +3,6 @@ layout: default
 title: About Me
 ---
 
-## Welcome
-
 ## About Me
 I am a rising fourth year student at UCLA's math and economics departments. While my undergraduate major is pure math, I am a "Departmental Scholar" in the economics program, which enables me to complete a Masters degree within my standard four years. 
 
