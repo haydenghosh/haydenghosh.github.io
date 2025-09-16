@@ -6,15 +6,15 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: "Hayden Ghosh"
-email: haydenghosh7@gmail.com
-description: Hayden Ghosh's website.
+title: "Erk Sampat"
+email: esampat@ucsb.edu
+description: Erk Sampat's website.
 baseurl: "" # the subpath of your site, e.g. "/blog" or "" for without any subpath
-url: "http://haydenghosh.github.io/" # the base hostname & protocol for your site
+url: "http://haydenghosh.github.io" # the base hostname & protocol for your site
 
 # Navigation section
 # You need to define navigation items in "_data/nav.yml" and then enable using the following variable.
-navigations: [home,economics,music,projects]
+navigations: [home,posts,pages,notes,projects]
 
 # The font-family set here will have a global effect on the site.
 # For each of google fonts like Lora, Inconsolata, Source Sans Pro or Source Code Pro,
@@ -26,21 +26,21 @@ font-family: ['Lora', serif]
 # You can reorder the items to define the link order.
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/social_networks.yml
 social_accounts:
-  email: "haydenghosh7@gmail.com"
-  github: haydenghosh
-  linkedin: haydenghosh
+  email: "esampat@ucsb.edu"
+  github: SAR-mango
+  linkedin: erk-sampat-500331245
 
 # Enable collections
 # you can add more collection or remove collection by configuring the below variables.
 # It is important that you keep 'tags' collection in order to let tag system work.
 collections:
-  economics:
-    output: true
-    permalink: /:collection/:name
-  music:
+  pages:
     output: true
     permalink: /:collection/:name
   projects:
+    output: true
+    permalink: /:collection/:name
+  notes:
     output: true
     permalink: /:collection/:name
 
@@ -48,17 +48,22 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: "economics"
-    values:
-      layout: "post"
-  - scope:
-      path: ""
-      type: "music"
-    values:
-      layout: "post"
-  - scope:
-      path: ""
       type: "projects"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "notes"
     values:
       layout: "post"
   - scope:
