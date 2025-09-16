@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Notes
+title: Other
 ---
 <div class="home">
   <div class="post-list">
-    <h1 class="post-list-title"> Notes </h1>
+    <h1 class="post-list-title"> Other </h1>
 
-    {% assign sorted = site.notes | sort: 'date' | reverse %}
+    {% assign sorted = site.other | sort: 'date' | reverse %}
     {% include post_list.html posts=sorted %}
   </div>
 </div>

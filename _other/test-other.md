@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Indicator Function in Matlab
-date: 2024-11-08
+title: Test "Other" Post
+date: 2025-09-16
 ---
 
 This is a short note on how to implement the "indicator function" in Matlab.
