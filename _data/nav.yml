@@ -10,10 +10,6 @@ music:
   text: "Music"
   link: "/music"
 
-posts:
-  text: "Posts"
-  link: "/posts"
-
 economics:
   text: "Economics"
   link: "/economics"

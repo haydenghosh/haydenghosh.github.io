@@ -14,7 +14,7 @@ url: "http://haydenghosh.github.io" # the base hostname & protocol for your site
 
 # Navigation section
 # You need to define navigation items in "_data/nav.yml" and then enable using the following variable.
-navigations: [home,posts,economics,music,other]
+navigations: [home,economics,music,other]
 
 # The font-family set here will have a global effect on the site.
 # For each of google fonts like Lora, Inconsolata, Source Sans Pro or Source Code Pro,
@@ -54,11 +54,6 @@ defaults:
   - scope:
       path: ""
       type: "economics"
-    values:
-      layout: "post"
-  - scope:
-      path: ""
-      type: "posts"
     values:
       layout: "post"
   - scope:
