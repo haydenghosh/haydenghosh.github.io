@@ -14,6 +14,6 @@ posts:
   text: "Posts"
   link: "/posts"
 
-pages:
-  text: "Pages"
-  link: "/pages"
+economics:
+  text: "Economics"
+  link: "/economics"
