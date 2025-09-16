@@ -45,6 +45,9 @@
   {% if site.font-family contains "Lora" %}
     <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
   {% endif %}
+  {% if site.font-family contains "Libre Baskerville" %}
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  {% endif %}
 
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
