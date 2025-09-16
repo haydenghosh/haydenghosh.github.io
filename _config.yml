@@ -19,7 +19,7 @@ navigations: [home,posts,pages,notes,projects]
 # The font-family set here will have a global effect on the site.
 # For each of google fonts like Lora, Inconsolata, Source Sans Pro or Source Code Pro,
 # a corresponding script is added to site header to make sure the font is available at client side.
-font-family: ['Lora', serif]
+font-family: ['Libre Baskerville', serif]
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
